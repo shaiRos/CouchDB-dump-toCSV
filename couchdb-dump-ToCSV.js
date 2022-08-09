@@ -12,7 +12,7 @@ const {
 global.document = document;
 var $ = jQuery = require('jquery')(window);
 const fs = require('fs');
-var dataJson = require('./wabamunComments_20220802.json');
+var dataJson = require('./myfile.json');
 
 convertData();
 
